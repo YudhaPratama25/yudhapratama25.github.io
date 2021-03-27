@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <title>Home</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="home.html"><b style="color: green;">PORTAL</b>-Berita</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+               
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+          <!-- batas Navbar -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: blue;">
+       
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="food.html">FOOD <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">SAINS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">TEKNOLOGI <span class="sr-only">(current)</span></a>
+                </li>
+
+              
+              </ul>
+       
+            </div>
+          </nav>
+          
+          
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/healtyfood4.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image/roket.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="image/macbook.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <!-- batas nav dan grid -->
+          <br>
+
+          
+            <div class="row">
+              <div class="col">
+                <div class="list-group">
+                    <h1 style="background: honeydew;">#BeritaTerkini</h1>
+                    <a href="#" class="list-group-item list-group-item-action active">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small>3 days ago</small>
+                      </div>
+                      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                      <small>Donec id elit non mi porta.</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small class="text-muted">3 days ago</small>
+                      </div>
+                      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                      <small class="text-muted">Donec id elit non mi porta.</small>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small class="text-muted">3 days ago</small>
+                      </div>
+                      <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                      <small class="text-muted">Donec id elit non mi porta.</small>
+                    </a>
+                  </div>
+              </div>
+              <div class="col">
+                <ul class="list-group">
+                    <h1 style="background: honeydew;">#BeritaTerpopuler</h1>
+                    <li class="list-group-item active">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+              </div>
+            </div>
+
+        
+    </div>
+    
+</body>
+</html>
